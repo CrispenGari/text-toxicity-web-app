@@ -60,15 +60,15 @@ Note: This application is using a serperate backend so you must start the backen
 
 ## How to start the backend server?
 
-Run the following command
+### Run the following command
 `cd backend`
-Then:
+### Then:
 
 `npm install`
 
-Then:
+### Then:
 `nodemon server` - if nodemon is installed in your computer
-OR
+### OR
 `node server`
 For more information about how to configure the backend refere to the backend `Readme`.
 
