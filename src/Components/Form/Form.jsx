@@ -33,9 +33,9 @@ const Form = ({ setPredictions }) => {
         let pred = [];
         for (let k = 0; k < res.predictions?.length; k++) {
           pred.push({
-            label: res.predictions[i]?.label,
-            ratting: res.predictions[i]?.results[0]?.probabilities[1],
-            match: res.predictions[i]?.results[0]?.match,
+            label: res.predictions[k]?.label,
+            ratting: res.predictions[k]?.results[0]?.probabilities[1],
+            match: res.predictions[k]?.results[0]?.match,
           });
         }
         if (pred.length > 0) {
